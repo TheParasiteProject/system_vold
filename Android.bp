@@ -189,6 +189,8 @@ cc_binary {
 
     required: [
         "mke2fs",
+        "mkfs.exfat",
+        "fsck.exfat",
         "vold_prepare_subdirs",
         "fuseMedia.o",
     ],
